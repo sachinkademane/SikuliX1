@@ -314,6 +314,10 @@ public class Settings {
   public static float CheckLastSeenSimilar = 0.95f;
   //public static boolean UseImageFinder = false;
   public static float AlwaysResize = 0;
+  public static boolean ScaleResolution = true;
+  public static float ResolutionX = 1920;
+  public static float ResolutionY = 1080;
+
   public static org.sikuli.script.ImageCallback ImageCallback = null;
 
   private static int ImageCache = 64;
